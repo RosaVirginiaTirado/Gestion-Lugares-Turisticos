@@ -1,0 +1,30 @@
+.carousel-item {
+    height: 35vh;
+    min-height: 300px;
+    background: no-repeat left left scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    vertical-align: middle;
+
+  }img{
+    display:block;
+    margin:auto;
+    }
+    
+    label{ color:rgb(245, 203, 14);}
+    input[type = "radio"]{ display:none;}
+    .clasificacion{
+        direction: rtl;/* right to left */
+        unicode-bidi: bidi-override;/* bidi de bidireccional */
+    }
+    label:hover{color:rgb(189, 176, 101);}
+    label:hover ~ label{color:orange;}
+    input[type = "radio"]:checked ~ label{color:rgb(192, 185, 171);}
+    p {
+        text-align: center;
+      }
+      label {
+        font-size: 35px;
+      }

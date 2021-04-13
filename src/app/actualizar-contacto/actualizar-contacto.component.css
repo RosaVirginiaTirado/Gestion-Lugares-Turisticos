@@ -1,0 +1,12 @@
+.carousel-item {
+    height: 55vh;
+    min-height: 350px;
+    background: no-repeat left left scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }img{
+    display:block;
+    margin:auto;
+    }
