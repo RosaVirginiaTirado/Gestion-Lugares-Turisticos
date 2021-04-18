@@ -33,9 +33,6 @@ const routes: Routes = [
   {path:'Cinicio/deportes', component: DeportesComponent},
   {path:'Cinicio/hoteles', component: HotelesComponent },
   {path:'Cinicio/transporte', component: TransporteComponent}
-  
-
-
 ];
 
 @NgModule({

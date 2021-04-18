@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { GoogleMap, MapInfoWindow, MapMarker } from '@angular/google-maps';
 
 @Component({
   selector: 'app-cuerpo',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cuerpo.component.css']
 })
 export class CuerpoComponent implements OnInit {
+ 
+  center = {lat: -2.955152344389949, lng:  -78.9764076271043};
+  zoom = 17;
+  mapTypeId = "hibrid";
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(){
+    
   }
-
+  ngOnInit() {
+  }
 }
+
+

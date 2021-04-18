@@ -30,6 +30,7 @@ import { IglesiasComponent } from './iglesias/iglesias.component';
 import { MuseosComponent } from './museos/museos.component';
 import { DeportesComponent } from './deportes/deportes.component';
 import { TransporteComponent } from './transporte/transporte.component';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 
 @NgModule({
@@ -65,7 +66,8 @@ import { TransporteComponent } from './transporte/transporte.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -172,4 +172,12 @@
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
+      
     </div>
+    <h1>Mapas de google</h1>
+    <google-map width = "750px" height ="450px" [mapTypeId]="'hybrid'" [center] = "center" [zoom] = "zoom">
+      <map-marker [position] = "center">
+
+      </map-marker>
+
+    </google-map>
